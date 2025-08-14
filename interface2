@@ -1,0 +1,19 @@
+
+interface Sum{
+    int max=44;
+    void show();
+    static void display(){
+        System.out.println("Ironman");
+    }
+}
+class myclass implements Sum{
+    public void show(){
+        System.out.println("Tony");
+}}
+public class main{
+    public static void main(String args[]){
+        Sum.display();
+        myclass obj=new myclass();
+        obj.show();
+    }
+}
