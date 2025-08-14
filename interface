@@ -1,0 +1,21 @@
+
+interface Stark{
+    void sound();
+    default void run(){
+        System.out.println("Ironman");
+    }
+    static void thanos(){
+        System.out.println("Inevitable");
+    }
+}
+class thanos implements Stark{
+    public void sound(){
+        System.out.println("Thor");
+    }
+}
+public class tony{
+    public static void main(String args[]){
+        thanos obj=new thanos();
+        obj.sound();
+    }
+}
