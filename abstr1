@@ -1,0 +1,20 @@
+
+abstract class Avengers{
+    abstract void run();
+}
+class Thanos extends Avengers{
+    void run(){
+        System.out.println("I Am Ironman");
+    }
+    void play(){
+        System.out.println("I Am Inevitable");
+    }
+}
+public class tony{
+    public static void main(String args[]){
+        Avengers obj=new Thanos();
+        obj.run();
+        Thanos obj1=new Thanos();
+        obj1.play();
+    }
+}
