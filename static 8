@@ -1,0 +1,13 @@
+public class Main{
+    System.out.println("Non-static Block Running");
+}
+static{
+    System.out.println("static Block Running");
+}
+public static void main(String[]args){
+    System.out.println("Main start");
+    new Main():
+    System.out.println("Main End")
+    new Main();
+}
+}
