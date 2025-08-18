@@ -1,0 +1,19 @@
+public class Main{
+    System.out.println("Non-static Block Running");
+}
+Main(){
+    System.out.println("Constructor");
+}
+static{
+    System.out.println("static Block Running");
+}
+public static void main(String[]args){
+    System.out.println("Main start");
+    new Main():
+    System.out.println("Main End")
+}
+ System.out.println("ns-2");
+ static{
+      System.out.println("st-2");
+ }
+}
