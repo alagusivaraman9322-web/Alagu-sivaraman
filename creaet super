@@ -1,0 +1,26 @@
+public class Vechical{
+    int model;
+    Vechical(){
+        System.out.println("Vechical constructor");
+    }
+    Vechical(int model){
+        this.model=model;
+    }
+}
+class Car extends Vechical{
+    Car(){
+        super();
+    }
+}
+class Bike extends Vechical{
+    Bike(int model){
+        super(10);
+        this.model=model;
+    }
+}
+public class Main{
+    public static void main(String[]args){
+        new car();
+        new Bike(101);
+    }
+}
